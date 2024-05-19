@@ -1,0 +1,75 @@
+{
+  "tasks": [],
+  "users": [
+    {
+      "id": "1",
+      "firstname": "Juan",
+      "lastname": "Lencinas",
+      "email": "juan-clio@hotmail.com",
+      "password": "clio"
+    },
+    {
+      "id": "df5c",
+      "firstname": "Juan",
+      "lastname": "Lencinas",
+      "email": "juan-clio@hotmail.com",
+      "password": "clio"
+    },
+    {
+      "id": "",
+      "firstname": "Alex",
+      "lastname": "Echeverria",
+      "email": "alex@e.com",
+      "password": "alex"
+    },
+    {
+      "id": "161f",
+      "firstname": "a",
+      "lastname": "e",
+      "email": "a@e.com",
+      "password": "alex"
+    },
+    {
+      "id": "ebd7",
+      "firstname": "q",
+      "lastname": "a",
+      "email": "a@q.com",
+      "password": "123456"
+    },
+    {
+      "id": "1943",
+      "firstname": "aaaa",
+      "lastname": "aaaaaaa",
+      "email": "aaa@eeee",
+      "password": "aa"
+    },
+    {
+      "id": "66c6",
+      "firstname": "mai",
+      "lastname": "eche",
+      "email": "ma@ec.com",
+      "password": "123"
+    },
+    {
+      "id": "ec21",
+      "firstname": "q",
+      "lastname": "w",
+      "email": "e@a",
+      "password": "111"
+    },
+    {
+      "id": "1cb4",
+      "firstname": "q",
+      "lastname": "q",
+      "email": "q@q",
+      "password": "q"
+    },
+    {
+      "id": "cf73",
+      "firstname": "w",
+      "lastname": "w",
+      "email": "w@s",
+      "password": "ss"
+    }
+  ]
+}

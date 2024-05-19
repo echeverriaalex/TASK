@@ -1,0 +1,23 @@
+.container{
+    /*background: rgb(235, 127, 26); */
+    min-width: 300px;
+    margin: 20px auto;
+    max-width: 40vw;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    margin: 20px 20px;
+    min-width: 120px;
+    width: 7vw;
+}

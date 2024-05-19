@@ -1,0 +1,32 @@
+<div class="container">
+    <form [formGroup]="registerForm" (ngSubmit)="registerUser()">
+        <div class="mb-3">
+            <label for="firstname" class="form-label">FirstName</label>
+            <input type="text" formControlName="firstname" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Lastname</label>
+            <input type="text" formControlName="lastname" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" formControlName="password" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="repeatpassword" class="form-label">Repeat password</label>
+            <input type="password" formControlName="repeatpassword" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+    
+    <div class="section">
+        <button class="btn btn-primary  m-5" routerLink="">Go back</button>
+        <button class="btn btn-primary" routerLink="/auth/login">Go log in</button>
+    </div>
+</div>
+
+    

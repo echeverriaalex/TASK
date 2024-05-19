@@ -3,25 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TasksComponent } from './components/tasks/tasks.component';
-import { UsersComponent } from './components/users/users.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { LoginComponent } from './modules/auth/login/login.component';
 import { RouterLink, RouterModule } from '@angular/router';
+import { HomeComponent } from './modules/home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksComponent,
-    UsersComponent,
-    LandingComponent,
-    LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterLink,
     RouterModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
