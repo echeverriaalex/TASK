@@ -31,6 +31,7 @@ export class RegisterComponent implements OnInit{
       if(this.registerForm.get('password')?.value === this.registerForm.get('repeatpassword')?.value){
 
           let newUser = {
+            id: null,
             firstname: this.registerForm.get('firstname')?.value,
             lastname: this.registerForm.get('lastname')?.value,
             email: this.registerForm.get('email')?.value,
